@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garbage Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header {
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+        }
+
+        nav {
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+
+        section {
+            margin-top: 20px;
+        }
+
+        .user-section {
+            float: left;
+            width: 30%;
+            box-sizing: border-box;
+            margin-right: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Garbage Management System</h1>
+    </header>
+
+    <nav>
+        <a href="C:\Users\student\Documents\administrator.html">Administrator</a> |
+        <a href="C:\Users\student\Documents\general.html">General Public</a> |
+        <a href="C:\Users\student\Documents\driver.html">Driver</a>
+    </nav>
+
+    <div class="container">
+        <section id="admin" class="user-section">
+            <a href="C:\Users\student\Documents\administrator.html"><h2>Administrator</h2></a><br>
+            <p><h4>functions of administration<h4></p>
+            <p>* login</p>
+            <p>* create garbage bin</p>
+            <p>* Update/Delete garbage bin</p>
+            <p>* manage driver</p>
+            <p>* view garbage report</p>
+
+        </section>
+
+        <section id="public" class="user-section">
+            <a href="C:\Users\student\Documents\general.html"><h2>General Public</h2></a><br>
+            <p><h4>functions of Genearal Public <h4></p>
+            <p>* Register</p>
+            <p>* login</p>
+            <p>* Register complaint</p>
+            <p>* My complaint & status</p>
+
+
+        </section>
+
+        <section id="driver" class="user-section">
+            <a href="C:\Users\student\Documents\driver.html"><h2>Driver</h2></a><br>
+            <p><h4>functions of Driver<h4></p>
+            <p>* login</p>
+            <p>* check daily work updates</p>
+            <p>* choose best route</p>
+            <p>* Update garbage load</p>
+
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2023 Garbage Management System</p>
+    </footer>
+</body>
+
+</html>
